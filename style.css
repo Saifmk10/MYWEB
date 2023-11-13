@@ -1,0 +1,152 @@
+ /*navigation font*/
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+ /*name-main-dec span font*/
+ @import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap'); 
+
+ /* name-sub-dec span font */
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+ /* front-end-dev font */
+ @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+   padding: 0px;
+   margin: 0px;
+   text-decoration: none;
+}
+/* main body section for all the body changes */
+body{
+   background-color: #28282B;
+   overflow: hidden;
+}
+
+/* navigation links on top right corner */
+.nav-links{
+   left: 1000px;
+   top: 20px;
+   color: #00C6C2;
+   display: flex;
+   justify-content: end;
+   flex-wrap: wrap;
+}
+
+/* navigation decoration and positioning */
+.nav-dec{
+   color: #00C6C2;
+   font-size: 1.2rem;
+   font-family: 'Kanit', sans-serif;
+   padding: 15px;
+   margin-right: 15px;
+   margin-top: 15px;
+
+   transition-property: transform;
+   /* transition-delay: 0.2s; */
+   transition-timing-function: ease-in-out;
+}
+.nav-dec:hover{
+   transform: scale(1.1);
+}
+
+/* the name section */
+.name{
+   color: #00C6C2;
+   display: flex;
+   position: relative;
+   top: 150px;
+   right: 300px;
+   justify-content: center;
+   font-weight: bolder;
+}
+
+#name-main-dec{
+   font-family: 'Unbounded', sans-serif;
+   display: inline-block;
+   position: relative;
+   right: 35px;
+}
+#name-sub-dec{
+   font-family: 'Rubik Mono One', monospace;
+   display: inline-block;
+   position: relative;
+   top: 40px;
+   right: 120px;
+   letter-spacing: 2px;
+}
+
+
+#front-end-dev{
+   display: inline-block;
+   position: relative;
+   top: 200px;
+   left: 130px;
+   color: #D3FBD8 ;
+   font-family: 'Space Mono', monospace;
+   font-size: 25px;
+   letter-spacing: 3px;
+}
+
+
+/* image section */
+#image{
+   display: inline-block;
+   position: relative;
+   left: 500px;
+   bottom: 145px;
+   width: 1050px;
+   height: auto;
+   filter: drop-shadow(19px -4px 20px #00C6C2);
+}
+
+/* the buttons */
+#button{
+   display: inline-block;
+   position: relative;
+   top: 250px;
+   left: 140px;
+}
+.button-dec{
+   border: 2px solid #00C6C2;
+   font-family: 'Kanit', sans-serif;
+   width: 140px;
+   height: 35px;
+   background-color: transparent;
+   color: #D3FBD8;
+   border-radius: 10px;
+   margin-right: 30px;
+
+   transition-property: transform;
+   transition-duration: 0.4s;
+   transition-timing-function: ease-in-out;
+}
+.button-dec:hover{
+   transform: scale(1.1);
+   background-color: #D3FBD8;
+   color: #28282B;
+   filter: drop-shadow(-3px -2px 19px #00C6C2);
+}
+
+
+/* icons section*/
+#icons{
+   display: inline-block;
+   position: relative;
+   top: 405px;
+   left: 160px;
+}
+
+
+#insta{
+   color: #00C6C2;
+   margin-right: 10px;
+}
+#wtsapp{
+   margin-right: 10px;
+}
+#twitter{
+   margin-right: 10px;
+}
+#facebook{
+   margin-right: 10px;
+}
+
