@@ -135,18 +135,14 @@ body{
    left: 160px;
 }
 
+.social{
+   margin-right: 10px;
 
-#insta{
-   color: #00C6C2;
-   margin-right: 10px;
+   transition-property: transform;
+   transition-timing-function: ease-in-out;
+   transition-duration: 0.3s;
 }
-#wtsapp{
-   margin-right: 10px;
+.social:hover{
+   transform: scale(1.2);
+   filter: drop-shadow(-3px -2px 19px #D3FBD8);
 }
-#twitter{
-   margin-right: 10px;
-}
-#facebook{
-   margin-right: 10px;
-}
-
