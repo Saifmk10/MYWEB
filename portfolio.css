@@ -1,0 +1,98 @@
+/* font for the about-me , wid-heading */
+  @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/* font for the about-para, wid-para*/
+  @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@500&display=swap');
+
+/*  */
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #28282B;
+}
+
+
+/* about me section */
+#about{
+    width: 600px;
+    margin: 130px 0px 0px 80px;
+    height: 250px;
+}
+
+.about-me{
+    color: #00C6C2 ;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.about-para{
+    color: #D3FBD8;
+    font-family: 'Wix Madefor Text', sans-serif;
+    line-height: 30px;
+    word-spacing: 3px;
+    font-size: 18px;
+}
+
+
+/* what i do section */
+#what-i-do{
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    width: 600px;
+    margin: 5px 0px 0px 0px;
+    height: 250px;
+    /* border: 2px solid red; */
+}
+
+.wid-heading{
+    display: flex;
+    justify-content: start;
+    color: #00C6C2;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+
+.wid-para{
+    color: #D3FBD8;
+    font-family: 'Wix Madefor Text', sans-serif;
+    line-height: 30px;
+    word-spacing: 3px;
+    font-size: 18px;
+}
+
+
+#animation{
+    background-color: #D3FBD8;
+    /* margin-top:17px; */
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.marq-dec{
+    color: #28282B;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-weight: 100;
+}
+
+#second-slide{
+    /* color: transparent; */
+    color: #28282B;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+}
