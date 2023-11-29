@@ -51,8 +51,8 @@ body{
 /* the name section */
 .name{
    color: #00C6C2;
-   display: flex;
-   position: relative;
+   /* display: flex; */
+   /* position: relative; */
    top: 150px;
    right: 300px;
    justify-content: center;
@@ -146,3 +146,16 @@ body{
    transform: scale(1.2);
    filter: drop-shadow(-3px -2px 19px #D3FBD8);
 }
+
+/* @media only screen and (max-width: 600px) {
+   .nav-links{
+      display: flex;
+      justify-content: center;
+   }
+}
+@media only screen and (max-width: 800px) {
+   .nav-links{
+      display: flex;
+      justify-content: center;
+   }
+} */
