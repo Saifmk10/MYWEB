@@ -51,8 +51,8 @@ body{
 /* the name section */
 .name{
    color: #00C6C2;
-   /* display: flex; */
-   /* position: relative; */
+   display: flex;
+   position: relative;
    top: 150px;
    right: 300px;
    justify-content: center;
