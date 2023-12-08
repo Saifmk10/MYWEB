@@ -166,9 +166,16 @@ hr{
     animation-range: entry 0% cover 25%;
 }
 
+/* flip animation */
+.service_content{
+    background-color: transparent;
+    perspective: 1000px;
+}
+
 .service_content{
     display: flex;
     flex-direction: row;
+    /* justify-content: space-between; */
 }
 .boxes_services{
     background-color: #00C6C2;
@@ -177,11 +184,18 @@ hr{
     border: 2px solid #D3FBD8;
     border-radius: 10px;
     margin: 50px 0px 30px 130px;
-    filter: drop-shadow(10px 10px 10px #00C6C2);
+    /* filter: drop-shadow(10px 10px 10px #00C6C2); */
+
+    transition: transform;
+    transform-style: preserve-3d;
 
 }
+.boxes_services:hover{
+    /* scale: 1.1; */
+    background: linear-gradient(180deg,#00C6C2,#43D7BE,#6FE8B6,#9AF7AE);
+}
 
-.boxes_services h3{
+/*font for the services card*/.boxes_services h3{
     font-family: 'Audiowide', sans-serif;
     display: flex;
     justify-content: center;

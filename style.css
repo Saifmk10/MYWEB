@@ -146,16 +146,3 @@ body{
    transform: scale(1.2);
    filter: drop-shadow(-3px -2px 19px #D3FBD8);
 }
-
-/* @media only screen and (max-width: 600px) {
-   .nav-links{
-      display: flex;
-      justify-content: center;
-   }
-}
-@media only screen and (max-width: 800px) {
-   .nav-links{
-      display: flex;
-      justify-content: center;
-   }
-} */
