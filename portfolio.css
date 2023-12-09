@@ -116,6 +116,7 @@ hr{
 #my-project{
     display: flex; 
     justify-content: center;
+    margin-top: 7ch;
 }
 #my-project-heading{
     display: inline-block;
@@ -124,8 +125,8 @@ hr{
     margin-bottom: 8px;
     font-size: 25px;
 
-    /* font-family: 'Russo One', sans-serif; */
-    font-family: 'Audiowide', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    /* font-family: 'Audiowide', sans-serif; */
     color: #00C6C2;
     letter-spacing: 2px;
     font-weight: bolder;
@@ -166,17 +167,23 @@ hr{
     animation-range: entry 0% cover 20%;
 }
 
+.services{
+    margin-top: 5ch;
+    padding-top: 20px;
+}
 
 .service_content{
     display: flex;
     flex-direction: row;
+    margin-top: 1ch;
     /* justify-content: space-between; */
 }
 
 .services_images{
-    height: 50%;
-    width: auto;
-    margin-top: 22%;
+    height: 13vh;
+    width: 11.5vw;
+    padding: 3px;
+    margin: 1.5ch 0ch 0ch 0ch;
     /* display: flex;
     justify-content: center; */
 }
@@ -187,32 +194,34 @@ hr{
     height: 150px;
     border: 2px solid #D3FBD8;
     border-radius: 10px;
-    margin: 50px 0px 30px 130px;
+    margin: 50px 0px 30px 120px;
+    padding: 0px 5px 0px 5px;
+
     /* filter: drop-shadow(10px 10px 10px #00C6C2); */
-    display: flex;
-    justify-content: center;
-    text-align: end;
-
-    transition: transform;
-    transform-style: preserve-3d;
-
-}
-.boxes_services:hover{
-    /* scale: 1.1; */
-    background: linear-gradient(180deg,#00C6C2,#43D7BE,#6FE8B6,#9AF7AE);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: end; */
 }
 
 /*font for the services card*/.boxes_services h3{
     font-family: 'Audiowide', sans-serif;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-    margin-right: 20px;
+    margin-top: 1ch;
     /* display: inline-block; */
     /* top: 100px; */
     letter-spacing: 1px;
-    width: 150px;
+    /* width: 150px; */
+
+    /* padding: 0px 5px 5px 5px; */
+    /* border: 2px solid red; */
 }
+
+.boxes_services:hover{
+    /* scale: 1.1; */
+    background: linear-gradient(180deg,#00C6C2,#43D7BE,#6FE8B6,#9AF7AE);
+}
+
 
 
 
