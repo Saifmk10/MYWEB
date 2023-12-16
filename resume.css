@@ -10,43 +10,41 @@ body{
     background-color: #28282B;
 }
 
-/* resume title name and heading */
-.title{
-    display: flex;
-    justify-content: center;
-    margin-top: 3ch;
-}
-.title h2{
+/* heading styling-display */
+.heading-styling-design{
     color: #00C6C2;
     font-family: 'Audiowide', sans-serif;
-    letter-spacing: 3px;
-    font-size: 1.5em;
+    padding: 10px;
+    font-size: 2.5vw;
+    letter-spacing: 2px;
 }
-
-
-.resume_img{
-    display: flex;
+.heading-design{
+    display: grid;
+    grid-template-rows: 80px;
     justify-content: center;
-    margin-top: 3ch;
+    padding: 10px;
 }
-.image_size{
-    height: 90vh;
+
+
+/* resume image styling-display */
+.resume-image{
+    height: 120vh;
     width: auto;
-    border: 5px solid #D3FBD8;
-    border-radius: 10px;
+    border: 5px solid #00C6C2;
+    border-radius: 8px;
 }
-
-.download{
-    display: flex;
+.resume{
+    display: grid;
+    grid-template-rows: 120vh;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
 }
 
+
+/* button styling-display */
 a{
     display: inline-block;
     height: 20px;
-    padding: 15px;
+    padding: 12px;
 
     background-color: #00C6C2;
     color: #28282B;
@@ -54,4 +52,70 @@ a{
     border-radius: 20px;
 
     font-family: 'Audiowide', sans-serif;
+}
+
+.button{
+    display: grid;
+    grid-template-rows: 70px;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+    margin: 5px;
+}
+
+
+
+
+
+/* media query section for all the posible screens */
+@media only screen and (max-width: 1440px){
+    .heading-styling-design{
+        font-size: 2.5vw;
+    }
+    .resume{
+        grid-template-rows: 120vh;
+     } 
+}
+@media only screen and (max-width: 1024px){
+    .heading-styling-design{
+        font-size: 2.5vw;
+    }
+    .resume{
+        grid-template-rows: 120vh;
+     } 
+}
+@media only screen and (max-width: 768px){
+    .heading-styling-design{
+        font-size: 4vw;
+    }
+    .resume-image{
+        width: 80vw;
+        height: auto;
+    } 
+    .resume{
+        grid-template-rows: 85vh;
+     } 
+}
+
+@media only screen and (max-width: 425px){
+    .heading-styling-design{
+        font-size: 4vw;
+    }
+    .resume-image{
+        width: 80vw;
+        height: auto;
+    }
+    .resume{
+        grid-template-rows: 80vh;
+     } 
+}
+@media only screen and (max-width: 375px){
+    .heading-styling-design{
+        font-size: 4vw;
+    }
+
+}
+@media only screen and (max-width: 320px){
+    .heading-styling-design{
+        font-size: 4vw;
+    }
 }
