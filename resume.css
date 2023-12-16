@@ -105,12 +105,15 @@ a{
         height: auto;
     }
     .resume{
-        grid-template-rows: 80vh;
+        grid-template-rows: 75vh;
      } 
 }
 @media only screen and (max-width: 375px){
     .heading-styling-design{
         font-size: 4vw;
+    }
+    .resume{
+        grid-template-rows: 65vh;
     }
 
 }
